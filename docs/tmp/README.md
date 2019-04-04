@@ -8,7 +8,7 @@ function explanation (id) {
 }
 </script>
 
-<a href="javascript:explanation('xxx')">Обяснения</a><br>
+<a href="javascript:explanation('xxx')" class="explanationbutton">Обяснения</a><br>
 <div id="xxx" style="display:none">
 bla bla bla
 </div>
