@@ -5,6 +5,7 @@ function explanation (id) {
     document.getElementById("demo").style.display="block"; 
 }
 </script>
+
 <а onClick="explanation('xxx')">Обяснения</a><br>
 <div id="xxx" style="display:none">
 bla bla bla
