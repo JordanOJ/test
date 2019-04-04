@@ -6,7 +6,7 @@ function explanation (id) {
 }
 </script>
 
-<а onClick="explanation('xxx')">Обяснения</a><br>
+<a onClick="explanation('xxx')">Обяснения</a><br>
 <div id="xxx" style="display:none">
 bla bla bla
 </div>
