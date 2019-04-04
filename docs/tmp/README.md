@@ -1,6 +1,6 @@
 Hello
 
-<link rel="stylesheet" href="/docs/techno.css">
+<link rel="stylesheet" href="/test/docs/techno.css">
 
 <script language="JavaScript">
 function explanation (id) {
