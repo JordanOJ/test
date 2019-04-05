@@ -139,27 +139,10 @@
   -webkit-border-image:none;
 }
 
-.switch-label:before {
+.explanationbutton2 ~ .switch-label {
 	content: attr(data-off);
 }
 
-.switch-label:after {
-	content: attr(data-on);
-}
-.explanationbutton2:checked ~ .switch-label:before {
-	opacity: 0;
-}
-.explanationbutton2:checked ~ .switch-label:after {
-	opacity: 1;
-}
-
-.explanationbutton2:checked ~ .switch-label:before {
-	opacity: 1;
-	left: 100px;
-}
-.explanationbutton2:checked ~ .switch-label:after {
-	left: 0;
-}
 .explanationbutton2:checked ~ .switch-label {
-	background: inherit;
+	content: attr(data-on);
 }
