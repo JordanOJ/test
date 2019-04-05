@@ -8,7 +8,7 @@ function explanation (id) {
 }
 </script>
 
-<button type="button" onclick="javascript:explanation('xxx')" class="explanationbutton">Обяснения <span class="switch-label" data-on="On" data-off="Off"></span></button><br>
+<button type="button" onclick="javascript:explanation('xxx')" class="explanationbutton">Обяснения </button><br>
 <div id="xxx" style="display:none">
 bla bla bla
 </div>
