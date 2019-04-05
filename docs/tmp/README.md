@@ -14,4 +14,4 @@ bla bla bla
 </div>
 <br>
 
-<button type="checkbox" class="explanationbutton" style="box-sizing:content-box;">Обяснения2 <span class="switch-label" data-on="On" data-off="Off"></span></button><br>
+<button type="checkbox" class="explanationbutton2" style="box-sizing:content-box;">Обяснения2 <span class="switch-label" data-on="On" data-off="Off"></span></button><br>
