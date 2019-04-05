@@ -139,3 +139,16 @@
   -webkit-border-image:none;
 }
 
+.switch-label:before {
+	content: attr(data-off);
+}
+
+.switch-label:after {
+	content: attr(data-on);
+}
+.explanationbutton2:checked ~ .switch-label:before {
+	opacity: 0;
+}
+.explanationbutton2:checked ~ .switch-label:after {
+	opacity: 1;
+}
