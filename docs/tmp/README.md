@@ -113,7 +113,9 @@ int[][] setup = { {1,1},{1,1},{1,1},{1,1},{1,0},{1,0},{1,0},{1,0} };
 {:/}
 
 text
+
 {::nomarkdown}
+
 <div> 
 <input type="checkbox" class="switch-label" id=xxx2>
 	 <label class=explanationbutton for=xxx2><span class="switch-label">Обяснения</span></label>
@@ -121,6 +123,7 @@ text
 			bla bla bla2
 	 </div> 
  </div>
+ 
 {:/}
 
 
