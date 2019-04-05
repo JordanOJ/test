@@ -2,7 +2,7 @@ Hello
 
 <link rel="stylesheet" href="../techno.css?">
 
-text2
+text3
 
 {::nomarkdown}
 <div><input type="checkbox" class="switch-label" id=xxx><label class=explanationbutton for=xxx><span class="switch-label">Обяснения</span></label>
