@@ -69,7 +69,7 @@ text3
 {:/}
 
 ```java
-int[][] setup = {{1,1},{1,1},{1,0},{1,0},{1,0},{1,0}}; //,{0,0},{0,0}
+int[][] setup = { {1,1},{1,1},{1,0},{1,0},{1,0},{1,0} }; //,{0,0},{0,0}
 Random r = new Random();
 int successfullPositions = 0;
 int unsuccessfullPositions = 0;
@@ -101,7 +101,7 @@ System.out.println("successful:" + successfullPositions + "; unsuccessful:" + un
 {:/}
 
 ```java
-int[][] setup = {{1,1},{1,1},{1,1},{1,1},{1,0},{1,0},{1,0},{1,0}}; 
+int[][] setup = { {1,1},{1,1},{1,1},{1,1},{1,0},{1,0},{1,0},{1,0} }; 
 ```
 
 {::nomarkdown}
