@@ -1,6 +1,7 @@
 Hello
 
 <link rel="stylesheet" href="../techno.css?">
+text
 
 <div> 
 	 <input type="checkbox" class="switch-label" id=xxx>
@@ -10,7 +11,9 @@ Hello
 	 </div> 
 </div>
 
- <div> 
+text
+
+<div> 
 <input type="checkbox" class="switch-label" id=xxx2>
 	 <label class=explanationbutton for=xxx2><span class="switch-label">Обяснения</span></label>
 	 <div class="explanation">
