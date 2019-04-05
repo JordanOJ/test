@@ -101,11 +101,11 @@ System.out.println("successful:" + successfullPositions + "; unsuccessful:" + un
 {:/}
 
 ```java
-int[][] setup = { {1,1},{1,1},{1,1},{1,1},{1,0},{1,0},{1,0},{1,0} }; 
+int[][] setup = {{1,1},{1,1},{1,1},{1,1},{1,0},{1,0},{1,0},{1,0}}; 
 ```
 
 {::nomarkdown}
-<div style=" background: grey;border: 1px solid #ccc; color: white; display: block;padding: 5px;width: 100%;font-size: 70%;">successful:6572; unsuccessful:3428</div>		
+<div style=" background: grey;border: 1px solid #ccc; color: white; display: block;padding: 5px;width: 100%;font-size: 85%;">successful:6572; unsuccessful:3428</div>		
 			
 		
 	</div> 
