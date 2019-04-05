@@ -139,10 +139,10 @@
   -webkit-border-image:none;
 }
 
-.explanationbutton2 ~ .switch-label {
+.explanationbutton2 ~ .switch-label:after {
 	content: attr(data-off);
 }
 
-.explanationbutton2:checked ~ .switch-label {
+.explanationbutton2:checked ~ .switch-label:after {
 	content: attr(data-on);
 }
