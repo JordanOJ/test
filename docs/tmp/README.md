@@ -69,7 +69,7 @@ text3
 {:/}
 
 ```java
-int[][] setup = { {1,1},{1,1},{1,0},{1,0},{1,0},{1,0} }; //,{0,0},{0,0}
+int[][] setup = { {1,1}, {1,1}, {1,0}, {1,0}, {1,0}, {1,0} }; //,{0,0},{0,0}
 Random r = new Random();
 int successfullPositions = 0;
 int unsuccessfullPositions = 0;
@@ -94,14 +94,14 @@ System.out.println("successful:" + successfullPositions + "; unsuccessful:" + un
 
 {::nomarkdown}
 Единственото отклонение от оригиналната ситуация е премахването на двете кутии с по 2 нескъпоценни камъчета в тях, понеже те добавят само неефективност в изпълнението, а програмата би връщала същия резултат и без тях. Примерен резултат:
-<div style=" background: grey;border: 1px solid #ccc; color: white; display: block;padding: 5px;width: 100%;font-size: 70%;">successful:5010; unsuccessful:4990</div>
-<div style=" background: grey;border: 1px solid #ccc; color: white; display: block;padding: 5px;width: 100%;font-size: 70%;">successful:4981; unsuccessful:5019</div>
+<div style=" background: grey;border: 1px solid #ccc; color: white; display: block;padding: 5px;width: 100%;font-size: 85%;">successful:5010; unsuccessful:4990</div>
+<div style=" background: grey;border: 1px solid #ccc; color: white; display: block;padding: 5px;width: 100%;font-size: 85%;">successful:4981; unsuccessful:5019</div>
 <br>
 Изпълнение на програмата при равен брой кутии с по 2 и с по 1 скъпоценно камъче също показва достатъчно ясно два пъти повече печеливши ситуации спрямо непечелившите.
 {:/}
 
 ```java
-int[][] setup = {{1,1},{1,1},{1,1},{1,1},{1,0},{1,0},{1,0},{1,0}}; 
+int[][] setup = { {1,1}, {1,1}, {1,1}, {1,1}, {1,0}, {1,0}, {1,0}, {1,0} }; 
 ```
 
 {::nomarkdown}
