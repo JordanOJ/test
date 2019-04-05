@@ -152,3 +152,14 @@
 .explanationbutton2:checked ~ .switch-label:after {
 	opacity: 1;
 }
+
+.explanationbutton2:checked ~ .switch-label:before {
+	opacity: 1;
+	left: 100px;
+}
+.explanationbutton2:checked ~ .switch-label:after {
+	left: 0;
+}
+.explanationbutton2:checked ~ .switch-label {
+	background: inherit;
+}
