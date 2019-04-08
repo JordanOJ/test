@@ -1,15 +1,12 @@
 
 <link rel="stylesheet" href="../techno.css?">
 
-
-<script language=JavaScript>
+<script>
 	function toggleWeek(weekID) {
 		var checkBoxObj = document.getElementById(weekID);
 		checkBoxObj.checked = !checkBoxObj.checked;
 	        alert(checkBoxObj.checked);
 	}
-
-
 </script>
 
 
