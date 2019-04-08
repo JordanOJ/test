@@ -81,3 +81,8 @@ input:checked + .explanationbutton + div {
   padding:15px;
   text-size-adjust:100%;
 }
+
+.h2 {
+  user-select:none;
+  touch-action:manipulation;
+}
