@@ -11,8 +11,7 @@
 
 {::nomarkdown}
 
-<h2 toggleWeek('week1')>Седмица №1</h2>
-
+<h2 onClick="toggleWeek('week1')">Седмица №1</h2>
 
 <div class="week">
 <input type="checkbox" id=week1>
