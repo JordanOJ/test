@@ -84,5 +84,6 @@ input:checked + .explanationbutton + div {
 
 .week {
   user-select:none;
-  touch-action:pointer;
+  touch-action:manipulation;
+  cursor: pointer;
 }
