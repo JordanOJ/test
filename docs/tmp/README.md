@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="../techno.css?">
+<link rel="stylesheet" href="../techno.css">
 
 <script>
 	function toggleWeek(weekID) {
