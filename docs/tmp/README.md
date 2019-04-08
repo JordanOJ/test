@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="../techno.css?">
 
 ## Седмица №1
+
 {::nomarkdown}
 <div class="week">
 <div>
@@ -17,9 +18,11 @@
 Приемаме, че водещият знае разпределението на камъчетата в кутиите - в колко кутии скъпоценните камъчета са 2, в колко е 1 и в колко са 0. Водещият обаче не знае какви са камъчетата в една конкретна кутия, тъй като самият той не различава кутиите. 
 	</div> 
 </div>
+	
 {:/}
 
 {::nomarkdown}
+
 <div>
 	<input type="checkbox" id=solution12><label for=solution12 class=explanationbutton><span>Обяснение</span></label>
 	<div class="explanation">
@@ -27,10 +30,13 @@
 	</div> 
 </div>
 </div>
+
 {:/}
 
 ## Седмица №2
+
 {::nomarkdown}
+
 <div class="week">
 <div>
 	<input type="checkbox" id=solution21><label for=solution21 class=explanationbutton><span>Обяснение</span></label>
@@ -38,9 +44,11 @@
              Q21 text here
 	</div> 
 </div>
+	
 {:/}
 
 {::nomarkdown}
+
 <div>
 	<input type="checkbox" id=solution22><label for=solution22 class=explanationbutton><span>Обяснение</span></label>
 	<div class="explanation">
@@ -55,5 +63,6 @@
 	</div> 
 </div>
 </div>
+
 {:/}
 
