@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../techno.css?">
 
 ## Седмица №1
-
+<div class="week">
 {::nomarkdown}
 <div>
 	<input type="checkbox" id=solution11><label for=solution11 class=explanationbutton><span>Обяснение</span></label>
@@ -27,9 +27,9 @@
 	</div> 
 </div>
 {:/}
-
+</div>
 ## Седмица №2
-
+<div class="week">
 {::nomarkdown}
 <div>
 	<input type="checkbox" id=solution21><label for=solution21 class=explanationbutton><span>Обяснение</span></label>
@@ -54,3 +54,4 @@
 	</div> 
 </div>
 {:/}
+</div>
