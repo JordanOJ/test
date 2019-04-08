@@ -9,11 +9,13 @@
 	}
 </script>
 
-
-## Седмица №1
-
 {::nomarkdown}
-<div class="week" onclick="toggleWeek('week1')">
+<a onClick="toggleWeek('week1')">
+{:/}
+## Седмица №1
+{::nomarkdown}
+</a>
+<div class="week">
 <input type="checkbox" id=week1>
 <div>
 	<input type="checkbox" id=solution11><label for=solution11 class=explanationbutton><span>Обяснение</span></label>
