@@ -1,10 +1,19 @@
 
 <link rel="stylesheet" href="../techno.css?">
 
+<script language=JavaScript>
+	function toggleWeek(weekID) {
+		var checkBoxObj = document.getElementById(weekID);
+		checkBoxObj.checked = !checkBoxObj.checked;
+	        alert(checkBoxObj.checked);
+	}
+</script>
+
 ## Седмица №1
 
 {::nomarkdown}
-<div class="week">
+<div class="week" onclick="toggleWeek('week1')">
+<input type="checkbox" id=week1>
 <div>
 	<input type="checkbox" id=solution11><label for=solution11 class=explanationbutton><span>Обяснение</span></label>
 	<div class="explanation">
