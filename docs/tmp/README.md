@@ -4,7 +4,7 @@
 {::nomarkdown}
 
 <label for=week1Toggle class="week">
-<h2>Седмица №1</h2>
+<h2 id=week1>Седмица №1</h2>
 </label>	
 <input type="checkbox" id=week1Toggle>
 <div>
@@ -70,5 +70,12 @@
 {:/}
 
 <script>
-	if (window.location.hash) alert(window.location.hash.substr(1));
+function hashChange() {
+	if (window.location.hash) {
+		var hashID = window.location.hash.substr(1);
+		document.getElementById(hashID + Toggle).checked = true;
+	}
+}
+window.onhashchange = hashChange;
+hashChange();
 </script>
