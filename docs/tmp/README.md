@@ -73,7 +73,7 @@
 function hashChange() {
 	if (window.location.hash) {
 		var hashID = window.location.hash.substr(1);
-		document.getElementById(hashID + Toggle).checked = true;
+		document.getElementById(hashID + "Toggle").checked = true;
 	}
 }
 window.onhashchange = hashChange;
