@@ -1,14 +1,6 @@
 
 <link rel="stylesheet" href="../techno.css">
 
-<script>
-	function toggleWeek(weekID) {
-		var checkBoxObj = document.getElementById(weekID);
-		checkBoxObj.checked = !checkBoxObj.checked;
-	       // alert(checkBoxObj.checked);
-	}
-</script>
-
 {::nomarkdown}
 
 <label for=week1Toggle class="week">
@@ -77,3 +69,6 @@
 
 {:/}
 
+<script>
+	if (window.location.hash) alert(window.location.hash.substr(1));
+</script>
