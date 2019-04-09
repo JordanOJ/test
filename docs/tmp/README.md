@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../techno.css">
 
 {::nomarkdown}
-<
+
 <input type="checkbox" id=week1Toggle>
 <label for=week1Toggle class="week">
 <h2 id=week1>Седмица №1 <span></span></h2>
