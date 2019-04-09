@@ -87,3 +87,11 @@ input:checked + .explanationbutton + div {
   touch-action:manipulation;
   cursor: pointer;
 }
+
+.week + input:not(:checked) + div {
+  display:none;
+}
+
+.week + input:checked + div {
+  display:block;
+}
