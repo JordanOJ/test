@@ -39,7 +39,7 @@ input[type=checkbox] {
 }
 
 .explanationbutton span:after {
-	content: '∨';
+  content: '∨';
   padding-left: 5px;
 }
 
@@ -88,10 +88,15 @@ input:checked + .explanationbutton + div {
   cursor: pointer;
 }
 
-.week + input:not(:checked) + div {
+input:not(:checked) + .week h2 {
+  content: '∨';
+  padding-left: 5px;
+}
+
+input:not(:checked) + .week + div {
   display:none;
 }
 
-.week + input:checked + div {
+input:checked + .week + div {
   display:block;
 }
