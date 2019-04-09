@@ -82,7 +82,7 @@ input:checked + .explanationbutton + div {
   text-size-adjust:100%;
 }
 
-.week {
+.week h2 {
   user-select:none;
   touch-action:manipulation;
   cursor: pointer;
