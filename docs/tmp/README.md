@@ -5,7 +5,7 @@
 
 <input type="checkbox" id=week1Toggle>
 <label for=week1Toggle class="week">
-<h2 id=week1>Седмица №1</h2>
+<h2 id=week1>Седмица №1 <span></span></h2>
 </label>	
 <div>
 <div>
