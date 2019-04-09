@@ -92,6 +92,10 @@ input:not(:checked) + .week h2 a:before {
   content: '∨';
   padding-right: 5px;
 }
+input:checked + .week h2 a:before {
+  content: '∧';
+  padding-right: 5px;
+}
 
 input:not(:checked) + .week + div {
   display:none;
