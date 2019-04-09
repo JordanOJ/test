@@ -88,11 +88,11 @@ input:checked + .explanationbutton + div {
   cursor: pointer;
 }
 
-input:not(:checked) + .week h2:after {
+input:not(:checked) + .week h2 span:after {
   content: '∨';
   padding-right: 5px;
 }
-input:checked + .week h2 a:before {
+input:checked + .week h2 span:after {
   content: '∧';
   padding-right: 5px;
 }
