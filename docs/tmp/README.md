@@ -11,8 +11,8 @@
 
 {::nomarkdown}
 
-<label for=week1Toggle>
-<h2 id=week1 class="week">Седмица №1</h2>
+<label for=week1Toggle class="week">
+<h2>Седмица №1</h2>
 </label>	
 <input type="checkbox" id=week1Toggle>
 <div>
